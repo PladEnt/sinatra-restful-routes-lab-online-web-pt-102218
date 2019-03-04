@@ -123,8 +123,8 @@ DEPENDENCIES
   shotgun
   sinatra
   sinatra-activerecord
-  sqlite3
+  sqlite3 (< 4)
   tux
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
