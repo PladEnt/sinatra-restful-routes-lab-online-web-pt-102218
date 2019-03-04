@@ -1,7 +1,8 @@
-class Creaters < ActiveRecord::Migration[5.1]
+class CreateRecipes < ActiveRecord::Migration[5.1]
   def change
-    create_table :students do |t|
+    create_table :recipes do |t|
       t.string :name
+      t.string :
     end
   end
 end
